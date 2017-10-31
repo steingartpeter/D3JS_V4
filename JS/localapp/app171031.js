@@ -21,9 +21,22 @@
 //-×
 //</M>
 
-APP171031 = APP171031 || {};
+var APP171031 = APP171031 || {};
 
 
 $(function(){
-	alert "JQuery - OK";
-})
+	alert("JQuery - OK");
+});
+
+
+APP171031.test01 = function(p1){
+	
+	if(p1 === undefined){
+		p1 = "TESZTSZÖVEG";
+	}
+	
+	console.info("Csak egy szövegkiírás: " + p1)
+}
+
+
+

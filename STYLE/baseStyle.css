@@ -2,3 +2,15 @@
 body{
 	background:#CDCDCD;
 }
+.row:{
+	padding:2px;
+}
+.std-col3{
+	border-top:1px solid #252525;
+	border-right:1px solid #252525;
+	border-left:1px solid #DEDEDE;
+	border-bottom:1px solid #DEDEDE;
+	border-radius:12px;
+	box-shadow:3px 3px 6px #050505;
+	padding:3px;
+}
