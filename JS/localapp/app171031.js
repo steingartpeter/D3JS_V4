@@ -25,18 +25,29 @@ var APP171031 = APP171031 || {};
 
 
 $(function(){
-	alert("JQuery - OK");
+	console.log("JQuery - OK");
 });
 
 
 APP171031.test01 = function(p1){
-	
+//<SF>
+// 2017. nov. 1.<br>
+// Csak egy tesztfüggvény...<br>
+// PARAMÉTEREK:
+//×-
+// @-- @p1 ... = ... -@
+//-×
+//MÓDOSTÁSOK:
+//×-
+// @-- ... -@
+//-×
+//</SF>	
 	if(p1 === undefined){
 		p1 = "TESZTSZÖVEG";
 	}
 	
 	console.info("Csak egy szövegkiírás: " + p1)
-}
+};
 
 
 
