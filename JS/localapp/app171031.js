@@ -52,8 +52,7 @@ APP171031.test01 = function(p1){
 	console.info("Csak egy szövegkiírás: " + p1)
 };
 
-
-APP171031.fstExmpl = function(){
+APP171031.fstExmpl = function(vrs){
 //<SF>
 // 2017. nov. 1.<br>
 // A könyv első példája<br>
@@ -66,6 +65,10 @@ APP171031.fstExmpl = function(){
 // @-- ... -@
 //-×
 //</SF>
+	
+	if(vrs === undefined){
+		vrs = 0;
+	}
 	
 	//<nn>
 	//set the dims, and margins of the graph
@@ -159,8 +162,6 @@ APP171031.fstExmpl = function(){
 	});
 	
 }
-
-
 
 
 

@@ -29,14 +29,15 @@ body{
 +------------------------------------------------------------------------------+
 */
 .line{
-	fill:none;
-	stroke:steelblue;
-	stroke-width:2px;
+	fill:#EDEDCE;
+	stroke:#5080B0;
+	stroke-width:20px;
 }
 svg{
 	margin:8px;
 	border:2px #EFEFFF dotted;
 	border-radius:15px;
 	box-shadow:3px 3px 6px #565656;
+	background: linear-gradient(to top, rgba(15,125,125,0.65) 0%,rgba(120,120,255,.25) 100%); 
 }
 
