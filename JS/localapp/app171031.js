@@ -29,6 +29,9 @@ $(function(){
 	if(window.location.href === "http://localhost:8080/D3JS_V4/PAGES/FirstExample001.html"){
 		APP171031.fstExmpl();
 	}
+	
+	APP171031.peterTest01();
+
 	test_adam1();
 });
 
@@ -163,6 +166,11 @@ APP171031.fstExmpl = function(vrs){
 		
 	});
 	
+}
+
+APP171031.peterTest01 = function(){
+	console.log("Második menet");
+	console.log("Ha ez is bejon, majnem OKk vagyunk... :)");
 }
 
 function test_adam1(){
