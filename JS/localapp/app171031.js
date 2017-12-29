@@ -175,6 +175,7 @@ APP171031.peterTest01 = function(){
 
 function test_adam1(){
 	console.log("adam1_tecek");
+	console.log("aztakurvamindenit...");
 }
 
 
