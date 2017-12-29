@@ -29,6 +29,7 @@ $(function(){
 	if(window.location.href === "http://localhost:8080/D3JS_V4/PAGES/FirstExample001.html"){
 		APP171031.fstExmpl();
 	}
+	APP171031.peterTest01();
 });
 
 
@@ -163,6 +164,9 @@ APP171031.fstExmpl = function(vrs){
 	
 }
 
+APP171031.peterTest01 = function(){
+	console.log("peter test futott...");
+}
 
 
 
