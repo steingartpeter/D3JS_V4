@@ -29,7 +29,11 @@ $(function(){
 	if(window.location.href === "http://localhost:8080/D3JS_V4/PAGES/FirstExample001.html"){
 		APP171031.fstExmpl();
 	}
+<<<<<<< HEAD
 	APP171031.peterTest01();
+=======
+	test_adam1();
+>>>>>>> c0b6f5dae3148fc4158fccb00d21082f656f7208
 });
 
 
@@ -50,7 +54,8 @@ APP171031.test01 = function(p1){
 		p1 = "TESZTSZÖVEG";
 	}
 	
-	console.info("Csak egy szövegkiírás: " + p1)
+	console.info("Csak egy szövegkiírás: " + p1);
+	
 };
 
 APP171031.fstExmpl = function(vrs){
@@ -164,10 +169,16 @@ APP171031.fstExmpl = function(vrs){
 	
 }
 
+<<<<<<< HEAD
 APP171031.peterTest01 = function(){
 	console.log("peter test futott...");
 }
 
+=======
+function test_adam1(){
+	console.log("adam1_tecek");
+}
+>>>>>>> c0b6f5dae3148fc4158fccb00d21082f656f7208
 
 
 
