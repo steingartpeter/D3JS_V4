@@ -29,11 +29,10 @@ $(function(){
 	if(window.location.href === "http://localhost:8080/D3JS_V4/PAGES/FirstExample001.html"){
 		APP171031.fstExmpl();
 	}
-<<<<<<< HEAD
+	
 	APP171031.peterTest01();
-=======
+
 	test_adam1();
->>>>>>> c0b6f5dae3148fc4158fccb00d21082f656f7208
 });
 
 
@@ -169,16 +168,14 @@ APP171031.fstExmpl = function(vrs){
 	
 }
 
-<<<<<<< HEAD
 APP171031.peterTest01 = function(){
-	console.log("peter test futott...");
+	console.log("Második menet");
+	console.log("Ha ez is bejon, majnem OKk vagyunk... :)");
 }
 
-=======
 function test_adam1(){
 	console.log("adam1_tecek");
 }
->>>>>>> c0b6f5dae3148fc4158fccb00d21082f656f7208
 
 
 
