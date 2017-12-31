@@ -44,7 +44,7 @@ APP171031.fstExmpl = fstExample;
 
 //===================================================================================================
 //###################################################################################################
-//XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX        FUNCTIONS CODES             XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+//XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX     FUNCTIONS IMPLEMENTATIONS      XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 //###################################################################################################
 //===================================================================================================
 function test01(p1){
@@ -179,7 +179,24 @@ function fstExample(vrs){
 
 }
 
-
+function scndExample(){
+//<SF>
+// 2017. dec. 31.<br>
+// LEÍRÁS<br>
+// PARAMÉTEREK:
+//×-
+// @-- @param ... = ... -@
+//-×
+//MÓDOSÍTÁSOK:
+//×-
+// @-- ... -@
+//-×
+//</SF>
+	var tstSvg = "tesztszöveg001";
+	
+	
+	
+}
 
 
 
