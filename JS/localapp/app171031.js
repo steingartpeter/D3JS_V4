@@ -23,20 +23,31 @@
 
 var APP171031 = APP171031 || {};
 
-
+//<nn>
+// Ez a függvény az aktuális lap betöltéskor mindig lefut.
+// JQuery onReady() truggered.
+//</nn>
 $(function(){
 	console.log("Aktuális URL: " + window.location.href);
 	if(window.location.href === "http://localhost:8080/D3JS_V4/PAGES/FirstExample001.html"){
 		APP171031.fstExmpl();
 	}
-	
-	APP171031.peterTest01();
 
-	test_adam1();
 });
 
+//<nn>
+// A függvényimplementációk beágyazása az APP objektumba.
+//</nn>
+APP171031.test01 = test01;
+APP171031.fstExmpl = fstExample;
 
-APP171031.test01 = function(p1){
+
+//===================================================================================================
+//###################################################################################################
+//XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX        FUNCTIONS CODES             XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+//###################################################################################################
+//===================================================================================================
+function test01(p1){
 //<SF>
 // 2017. nov. 1.<br>
 // Csak egy tesztfüggvény...<br>
@@ -55,9 +66,9 @@ APP171031.test01 = function(p1){
 	
 	console.info("Csak egy szövegkiírás: " + p1);
 	
-};
+}
 
-APP171031.fstExmpl = function(vrs){
+function fstExample(vrs){
 //<SF>
 // 2017. nov. 1.<br>
 // A könyv első példája<br>
@@ -165,19 +176,8 @@ APP171031.fstExmpl = function(vrs){
 			.call(d3.axisLeft(y));
 		
 	});
-	
+
 }
-
-APP171031.peterTest01 = function(){
-	console.log("Második menet");
-	console.log("Ha ez is bejon, majnem OKk vagyunk... :)");
-}
-
-function test_adam1(){
-	console.log("adam1_tecek");
-}
-
-
 
 
 
